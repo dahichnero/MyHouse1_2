@@ -1,0 +1,106 @@
+h1 {
+    text-align:center;
+    color:#0000FF;
+    font-family:Verdana;
+    font-size:20pt
+}
+h2 {
+    text-align: right;
+    color: #800000;
+    font-family: Verdana;
+    font-size: 16pt
+}
+p {
+    text-align: justify;
+    color: #191970;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight:bold;
+}
+body{
+    background-image:url(fon9.jpg)
+}
+ol {
+    list-style-type: upper-roman;
+    font-style: oblique;
+    color: crimson;
+    font-size: 15pt
+}
+ul{
+    list-style-image:url(spisok_1.gif);
+    text-decoration:underline;
+    font-size: 12pt;
+    color:indianred
+}
+h3 {
+    text-align: left;
+    color:mediumpurple;
+    font-family:Verdana;
+    font-size: 14pt
+}
+
+
+h1.main, h1.golub, h1.krasn, h1.zelen, h1.oranzhev{
+    color:navy;
+    font-family:Verdana;
+    text-align: left;
+    font-size:14pt
+}
+h1.main{
+    color:navy;
+}
+h1.golub {
+    color: blue;
+}
+h1.krasn {
+    color: red;
+}
+h1.zelen {
+    color: green;
+}
+h1.oranzhev {
+    color: orange;
+}
+
+p.second, p.fourth, p.fifth {
+    font-size: 13pt
+}
+p.first, p.fourth {
+    font-weight: bold
+}
+p.first, p.third {
+    text-align: center
+}
+p.second, p.fifth {
+    text-align: right
+}
+p.third, p.fourth {
+    font-style: oblique
+}
+p.first{
+    color:lightslategray;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14pt
+}
+p.second {
+    color: sandybrown;
+    font-family: Cooper;
+    font-weight:bolder;
+    font-style:italic
+}
+p.third {
+    color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: lighter;
+    font-variant:small-caps
+}
+p.fourth {
+    color: crimson;
+    font-family: 'Agency FB';
+    text-align: left
+}
+p.fifth {
+    color: indigo;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
